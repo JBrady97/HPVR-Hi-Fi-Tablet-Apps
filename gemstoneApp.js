@@ -1,6 +1,8 @@
 (function() {
 	// Every great app starts with a great name (keep it short so that it can fit in the tablet button)
 	var APP_NAME = "GEMSTONE";
+	
+	var APP_URL = "https://hifi-content.s3.amazonaws.com/faye/gemstoneMagicMaker/gemstoneMagicMaker.html";
 
 	// Get a reference to the tablet 
 	var tablet = Tablet.getTablet("com.highfidelity.interface.tablet.system");
